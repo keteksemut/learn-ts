@@ -1,7 +1,26 @@
-span {
-  font-size: 64px;
+body {
+  background: #000;
 }
 
-.operation {
-  color: cornflowerblue;
+.display {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: right;
+}
+
+/* Expression */
+#expressionOutput {
+  font-size: 48px;
+  color: white;
+}
+
+#expressionOutput mo,
+#resultOutput {
+  color: lime;
+}
+
+/* Result */
+#resultOutput {
+  font-size: 32px;
 }

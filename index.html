@@ -5,13 +5,23 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/style.css" />
+    <script src="./src/main.ts" defer></script>
     <title>learn-ts</title>
   </head>
   <body>
     <div id="app">
-      <span>5</span>
-      <span class="operation">+</span>
-      <span>5</span>
+      <div class="display">
+        <output
+          id="expressionOutput"
+          class="expression-output"
+          aria-live="polite"
+        >
+          <math id="currentExpression"></math>
+        </output>
+        <output id="resultOutput" class="result-output" aria-live="polite">
+          <math id="previewResult"></math>
+        </output>
+      </div>
     </div>
   </body>
 </html>
