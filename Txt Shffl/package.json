@@ -1,0 +1,10 @@
+{
+  "name": "text-shuffle",
+  "version": "1.0.0",
+  "description": "Text scramble/reveal animation effects: shuffle, shuffleScroll, wave, glitch, typewriter, morph, spotlight. Zero runtime dependencies.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node text-shuffle.test.js"
+  }
+}
